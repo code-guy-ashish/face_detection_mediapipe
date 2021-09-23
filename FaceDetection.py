@@ -7,7 +7,8 @@ ptime = 0
 wcam, hcam = 1280, 720
 ####################
 
-cam = cv2.VideoCapture(0)
+
+cam = cv2.VideoCapture(0)  #To use the camera feed
 cam.set(3, wcam)
 cam.set(4, hcam)
 
